@@ -1,0 +1,66 @@
+!SESSION 2024-09-11 10:57:42.728 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sanketvaidya/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/sanketvaidya/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-11 10:57:43.592
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-11 10:57:54.675
+!MESSAGE Logback config file: /Users/sanketvaidya/Documents/java-spring-boot/rabbitMq/rabbitMqDemo/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-11 10:57:54.813
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-11 10:57:54.813
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-11 10:57:54.980
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-11 10:57:54.980
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:01.871
+!MESSAGE Classpath changed for project: rabbitMqDemoListener
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:02.060
+!MESSAGE Classpath changed for project: rabbitMqDemoListener
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:03.298
+!MESSAGE Classpath changed for project: rabbitMqDemoListener
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:03.300
+!MESSAGE Boot project ADDED: rabbitMqDemoListener
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:03.300
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:03.312
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-11 10:59:03.318
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.56.0.202407191456/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/sanketvaidya/Documents/java-spring-boot/rabbitMq/rabbitMqDemo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1726032543318
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:03.319
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-11 10:59:03.321
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2110
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-11 10:59:03.329
+!MESSAGE Classpath changed for project: rabbitMqDemoListener

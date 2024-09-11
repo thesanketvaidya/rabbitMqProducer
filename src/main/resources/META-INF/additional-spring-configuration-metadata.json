@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.rabbitmq.routingkey",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.rabbitmq.routingkey'"
+  },
+  {
+    "name": "spring.rabbitmq.exchangename",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.rabbitmq.exchangename'"
+  },
+  {
+    "name": "spring.rabbitmq.queuename",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.rabbitmq.queuename'"
+  }
+]}
